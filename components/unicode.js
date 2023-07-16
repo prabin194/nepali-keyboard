@@ -1,4 +1,4 @@
-export function convertToUnicode(textToConvert) {
+export default function convertToUnicode(textToConvert) {
     const symbolsToReplace = [
         "ç", "˜", ".", "'m", "]m", "Fmf", "Fm",
         ")", "!", "@", "#", "$", "%", "^", "&", "*", "(",
