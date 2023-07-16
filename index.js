@@ -1,2 +1,7 @@
-import { convertToUnicode } from './components/unicode';
-import { convertToPreeti } from './components/preeti';
+import preetiToUnicode from './modules/preeti.js';
+import convertToUnicode from './modules/unicode.js';
+
+export {
+    preetiToUnicode,
+    convertToUnicode
+};
